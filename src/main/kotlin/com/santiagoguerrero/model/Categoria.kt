@@ -1,4 +1,5 @@
-package main.kotlin.com.santiagoguerrero.model
+package com.herreradavid.tasktracker.model
 
-class Categoria {
-}
+data class Categoria(
+    val nombre: String
+)
