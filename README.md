@@ -17,25 +17,24 @@ Cada tarea tiene **título, descripción, estado, categoría, prioridad y fecha 
 
 ## 🏗️ Estructura del Proyecto  
 
+```
 src/
 │
 ├── model/
-│ ├── Tarea.kt
-│ ├── Categoria.kt
-│ └── enums/
-│ ├── EstadoTarea.kt
-│ └── PrioridadTarea.kt
+│   ├── Tarea.kt
+│   ├── Categoria.kt
+│   └── enums/
+│       ├── EstadoTarea.kt
+│       └── PrioridadTarea.kt
 │
 ├── service/
-│ └── GestorTareas.kt
+│   └── GestorTareas.kt
 │
 └── utils/
-└── FechaHelper.kt
+    └── FechaHelper.kt
 
 Main.kt
-
-yaml
-Copiar código
+```
 
 ---
 
@@ -45,15 +44,20 @@ Copiar código
 Desde la terminal, dentro del proyecto:  
 ```bash
 kotlinc src -include-runtime -d gestor-tareas.jar
-2️⃣ Ejecutar
-bash
-Copiar código
-java -jar gestor-tareas.jar
-📚 Ejemplo de salida
-Al ejecutar el programa se imprime la siguiente lista de tareas:
+```
 
-makefile
-Copiar código
+### 2️⃣ Ejecutar  
+```bash
+java -jar gestor-tareas.jar
+```
+
+---
+
+## 📚 Ejemplo de salida  
+
+Al ejecutar el programa se imprime la siguiente lista de tareas:  
+
+```
 Lista de tareas:
 
 ID: 1
@@ -72,10 +76,17 @@ Categoría: Estudio
 Prioridad: ALTA
 Fecha de creación: 19/08/2025
 ------------------------------------------------------------
-⚙️ Tecnologías Utilizadas
-Lenguaje: Kotlin
+```
 
-Editor: IntelliJ IDEA
+---
 
-👤 Autor
-Nombre: Santiago Castaño
+## ⚙️ Tecnologías Utilizadas  
+
+- **Lenguaje:** Kotlin  
+- **Editor:** IntelliJ IDEA  
+
+---
+
+## 👤 Autor  
+
+- **Nombre:** Santiago Castaño  
